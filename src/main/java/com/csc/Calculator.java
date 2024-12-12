@@ -72,6 +72,34 @@ public class Calculator {
     return Arrays.stream(nums)
       .average();
   }
+
+  public static String evensOnly(int[] nums) {
+    int[] evens = Arrays.stream(nums)
+      .filter(n -> n % 2 == 0)
+      .toArray();
+    return Arrays.toString(evens);
+  }
+
+  public static String oddsOnly(int[] nums) {
+    int[] odds = Arrays.stream(nums)
+      .filter(n -> n % 2 != 0)
+      .toArray();
+    return Arrays.toString(odds);
+  }
+
+  public static String addFive(int[] nums) {
+    int[] plusFive = Arrays.stream(nums)
+      .map(n -> n + 5)
+      .toArray();
+    return Arrays.toString(plusFive);
+  }
+
+  public static String square(int[] nums) {
+    int[] squares = Arrays.stream(nums)
+      .map(n -> n * n)
+      .toArray();
+    return Arrays.toString(squares);
+  }
       
   public static void main(String[] args) {
     int[] numbers = {1, 2, 3, 4, 5};
@@ -87,5 +115,10 @@ public class Calculator {
     System.out.println(minimumUsingStream(numbers));
     System.out.println(sumUsingStream(numbers));
     System.out.println(averageUsingStream(numbers));
+    System.out.println();
+    System.out.println(evensOnly(numbers));
+    System.out.println(oddsOnly(numbers));
+    System.out.println(addFive(numbers));
+    System.out.println(square(numbers));
   }
 }

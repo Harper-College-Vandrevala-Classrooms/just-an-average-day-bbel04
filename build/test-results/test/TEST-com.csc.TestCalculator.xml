@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestCalculator" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-12-08T19:39:57" hostname="Bens-Air.attlocal.net" time="0.019">
+<testsuite name="com.csc.TestCalculator" tests="18" skipped="0" failures="0" errors="0" timestamp="2024-12-12T19:47:48" hostname="Bens-Air.attlocal.net" time="0.022">
   <properties/>
-  <testcase name="testSingleElementArrayForLoops()" classname="com.csc.TestCalculator" time="0.008"/>
+  <testcase name="testSingleElementArrayForLoops()" classname="com.csc.TestCalculator" time="0.006"/>
+  <testcase name="testOddsOnly()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testAddFive()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testSquareEmptyArray()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testAverageUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="testOddsOnlyEmptyArray()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testSumUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testMinimumUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="testSingleElementArrayForStreams()" classname="com.csc.TestCalculator" time="0.002"/>
-  <testcase name="testAverageUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="testMinimumUsingForLoop()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="testMaximumUsingStream()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="testEvensOnly()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testSingleElementArrayForStreams()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testAddFiveEmptyArray()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testAverageUsingStream()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="testMinimumUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="testMaximumUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="testMaximumUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
-  <testcase name="testSumUsingForLoop()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testSquare()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="testSumUsingForLoop()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="testEvensOnlyEmptyArray()" classname="com.csc.TestCalculator" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
